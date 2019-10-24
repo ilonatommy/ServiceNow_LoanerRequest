@@ -15,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Location to be used" max_length="40" name="location_to_be_used" type="string">
             <choice/>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
         <element default="not requested" label="Service Review" max_length="100" name="service_review" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Item type" max_length="40" name="u_choice_1" type="string">
             <choice>

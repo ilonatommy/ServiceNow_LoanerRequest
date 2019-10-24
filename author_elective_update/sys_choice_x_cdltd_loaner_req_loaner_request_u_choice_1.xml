@@ -1,77 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_1" table="x_cdltd_loaner_req_loaner_request" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_1</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Laptop</label>
-            <language>en</language>
-            <name>x_cdltd_loaner_req_loaner_request</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-24 12:28:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>227736bbc4e040107f441dd402652450</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-24 12:28:42</sys_updated_on>
-            <value>cmdb_ci_laptop</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_1</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mobile Phone</label>
-            <language>en</language>
-            <name>x_cdltd_loaner_req_loaner_request</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-24 12:28:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a27736bbc4e040107f441dd402652452</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-24 12:28:42</sys_updated_on>
-            <value>cmdb_ci_mobile_phone</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_1</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Projector</label>
-            <language>en</language>
-            <name>x_cdltd_loaner_req_loaner_request</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-24 12:28:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e7736bbc4e040107f441dd402652453</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-24 12:28:42</sys_updated_on>
-            <value>cmdb_ci_projector</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_choice_1" table="x_cdltd_loaner_req_loaner_request" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_choice_1</element>
             <name>x_cdltd_loaner_req_loaner_request</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-24 12:28:42</sys_created_on>
-            <sys_id>0364df7bc42440107f441dd4026524f2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_choice_1</sys_name>
-            <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
-            <sys_update_name>sys_choice_x_cdltd_loaner_req_loaner_request_u_choice_1</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-24 12:28:42</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-10-24 14:49:15</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>babef51fdb64c4104cc204c2ca961986</instance_id>
+        <instance_name>adf-capg-oct22-dev-011</instance_name>
+        <name>sys_choice_x_cdltd_loaner_req_loaner_request_u_choice_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_choice_1" table="x_cdltd_loaner_req_loaner_request" version="3"><sys_choice_set action="DELETE"><element>u_choice_1</element><name>x_cdltd_loaner_req_loaner_request</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-10-24 14:49:15</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>687018586</payload_hash>
+        <record_name>x_cdltd_loaner_req_loaner_request.u_choice_1</record_name>
+        <reverted_from/>
+        <source>d0641b7bc42440107f441dd402652441</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:49:15</sys_created_on>
+        <sys_id>99a75bbfc42440107f441dd4026524fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dfe3e3f910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:49:15</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>15a75bbfeb244010501cf137183e4dfe</update_guid>
+        <update_guid_history>15a75bbfeb244010501cf137183e4dfe:687018586,dda75bbfe624401071a26245745feffa:-127053377,5da75bbfbe2440101d40315c9dec89f7:872915903,a67736bb76e040101ddb31bfb662e656:1859226143,25549b7b0724401006b63f744d2d1431:687018586,ed549b7bea244010ea033885e80bb22d:-127053377,6d549b7b17244010f88c437b2b4af62a:872915903,a67736bb76e040101ddb31bfb662e656:1859226143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:49:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8ba7dbbfc42440107f441dd4026524aa</sys_id>
+        <sys_metadata>8ba7dbbfc42440107f441dd4026524aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_choice_1</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
+        <sys_scope_delete display_value="">80cc5245ea9f42c5979c17e1846fc139</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cdltd_loaner_req_loaner_request_u_choice_1</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cdltd_loaner_req_loaner_request_u_choice_1">99a75bbfc42440107f441dd4026524fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:49:25</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
