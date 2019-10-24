@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:01:27</sys_created_on>
+        <sys_id>7a9c0b77c42440107f441dd4026524c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7a9c0b77c42440107f441dd4026524c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:01:27</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+        <ui_policy display_value="set fields to r-o">b71bcb37c42440107f441dd40265244a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</application>
+        <file_path/>
+        <instance_id>babef51fdb64c4104cc204c2ca961986</instance_id>
+        <instance_name>adf-capg-oct22-dev-011</instance_name>
+        <name>sys_ui_policy_action_7a9c0b77c42440107f441dd4026524c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>number</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-24 14:01:27</sys_created_on><sys_id>7a9c0b77c42440107f441dd4026524c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>number</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package><sys_policy/><sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope><sys_update_name>sys_ui_policy_action_7a9c0b77c42440107f441dd4026524c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-24 14:01:27</sys_updated_on><table>x_cdltd_loaner_req_loaner_request</table><ui_policy display_value="set fields to r-o">b71bcb37c42440107f441dd40265244a</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1215997135</payload_hash>
+        <record_name>number</record_name>
+        <reverted_from/>
+        <source>5e7e163fc4a040107f441dd40265240b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:01:27</sys_created_on>
+        <sys_id>d9bc4b77c42440107f441dd4026524aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dfe127dd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:01:27</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>15bc4b77722440108d02996b71acdaaa</update_guid>
+        <update_guid_history>15bc4b77722440108d02996b71acdaaa:-1215997135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:02:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>87b249147bdd46a3a876889649b03489</sys_id>
+        <sys_metadata>7a9c0b77c42440107f441dd4026524c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+        <sys_parent display_value="set fields to r-o">b71bcb37c42440107f441dd40265244a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
+        <sys_scope_delete display_value="">80cc5245ea9f42c5979c17e1846fc139</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_7a9c0b77c42440107f441dd4026524c4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_7a9c0b77c42440107f441dd4026524c4">d9bc4b77c42440107f441dd4026524aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:02:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

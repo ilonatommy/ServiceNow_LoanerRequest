@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 14:01:57</sys_created_on>
+        <sys_id>20dc4b77c42440107f441dd4026524c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_20dc4b77c42440107f441dd4026524c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 14:01:57</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+        <ui_policy display_value="set fields to r-o">b71bcb37c42440107f441dd40265244a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
