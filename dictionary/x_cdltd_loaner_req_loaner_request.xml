@@ -12,12 +12,10 @@
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Location to be used" max_length="40" name="location_to_be_used" type="string">
-            <choice/>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
         <element default="not requested" label="Service Review" max_length="100" name="service_review" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Item type" max_length="40" name="u_choice_1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="cmdb_ci_mobile_phone" label="Item type" max_length="40" name="u_choice_1" type="string">
             <choice>
                 <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_laptop"/>
                 <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_phone"/>
@@ -32,5 +30,6 @@
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="New Reference" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="New Reference" max_length="32" name="u_reference_4" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="New Reference" max_length="32" name="u_reference_5" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_1" type="string"/>
     </element>
 </database>
