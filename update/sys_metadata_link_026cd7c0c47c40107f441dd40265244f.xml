@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cafe3eccc4f840107f441dd402652462</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_cdltd_loaner_req_loaner_request">
+    <x_cdltd_loaner_req_loaner_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci display_value="BlackBerry Desktop Manager">46bad115a9fe19810145ca410bf94d55</cmdb_ci>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <depot>santa clara</depot>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <location_to_be_used/>
+        <made_sla>true</made_sla>
+        <number>LNR002002</number>
+        <opened_at>2019-10-25 07:39:55</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <other/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <service_offering/>
+        <service_review>not requested</service_review>
+        <short_description/>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_cdltd_loaner_req_loaner_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 07:40:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cafe3eccc4f840107f441dd402652462</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 09:22:23</sys_updated_on>
+        <time_worked/>
+        <u_choice_1>cmdb_ci_mobile_phone</u_choice_1>
+        <u_data_structure_6/>
+        <u_data_structure_7/>
+        <u_glide_date_time_4>2019-09-03 13:01:30</u_glide_date_time_4>
+        <u_glide_date_time_5>2019-09-08 13:01:33</u_glide_date_time_5>
+        <u_reference_1 display_value="Abraham Lincoln">a8f98bb0eb32010045e1a5115206fe3a</u_reference_1>
+        <u_reference_3/>
+        <u_reference_4/>
+        <u_reference_5/>
+        <u_string_1/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_cdltd_loaner_req_loaner_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 09:48:32</sys_created_on>
+        <sys_id>026cd7c0c47c40107f441dd40265244f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LNR002002</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">e2bd86bbc46040107f441dd40265243d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">e2bd86bbc46040107f441dd40265243d</sys_scope>
+        <sys_update_name>sys_metadata_link_026cd7c0c47c40107f441dd40265244f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 09:48:32</sys_updated_on>
+        <tablename>x_cdltd_loaner_req_loaner_request</tablename>
+    </sys_metadata_link>
+</record_update>
